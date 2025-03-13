@@ -3,7 +3,6 @@ import '../../../public/css/home.css';
 import SecondayImage from '../../../public/images/past-section.jpg'
 import '../../../public/css/bootstrap.min.css'
 
-
 export function addStylesheet(href) {
     if (typeof window !== "undefined") {
         if (!document.querySelector(`link[href="${href}"]`)) {

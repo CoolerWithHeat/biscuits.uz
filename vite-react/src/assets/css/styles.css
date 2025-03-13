@@ -484,11 +484,19 @@ body {
     .window1{
         justify-self: left;
         align-items: center;
+        position: fixed;
+        margin-top: 100px;
+        background-color: rgba(252,248,245,255);
+        border-radius: 50%;
+        z-index: 2;
     }
-    .container{
-        width: 92vw;
-        margin: auto;
-        justify-items: center;
+    #togglePoint{
+        position: fixed;
+    }
+    #mobileCart{
+        margin-top: 5%;
+        position: fixed;
+        max-width: 75%;
     }
     .products_window{
         grid-area: 2 / 1 / 3 / 3;
@@ -525,6 +533,23 @@ body {
         margin: 0;
         padding: 0;
         display: grid;
+    }
+    .window1{
+        justify-self: left;
+        align-items: center;
+        position: fixed;
+        margin-top: 5%;
+        background-color: rgba(252,248,245,255);
+        border-radius: 50%;
+        z-index: 2;
+    }
+    #togglePoint{
+        position: fixed;
+    }
+    #mobileCart{
+        margin-top: 5%;
+        position: fixed;
+        max-width: 75%;
     }
     .menu-button {
         width: 30px;
