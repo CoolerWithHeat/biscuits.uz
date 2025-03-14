@@ -19,6 +19,22 @@ h2,
     font-weight: 700 !important;
 }
 
+a {
+    position: relative;
+}
+
+a::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: -2px;
+    width: 90%;
+    height: 2px;
+    background-color: currentColor;
+    transform: translateX(-50%);
+}
+
+
 h3,
 h4,
 .font-weight-semi-bold {
@@ -29,6 +45,10 @@ h5,
 h6,
 .font-weight-medium {
     font-weight: 500 !important;
+}
+
+.section-title{
+    animation: textFadeUp 0.7s ease-out forwards;
 }
 
 .btn {
